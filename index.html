@@ -5,26 +5,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shahin Digital & Creative Studio</title>
+<meta name="description" content="Shahin Digital & Creative Studio - Graphic Design, Video Editing and Digital Marketing Services.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#07111f;color:white;line-height:1.7}
-header{background:#101f33;padding:22px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
-.logo{font-size:21px;font-weight:bold;color:#00e5ff}
-nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
-.hero{text-align:center;padding:90px 15px;background:linear-gradient(135deg,#102b50,#07111f)}
-.hero h1{font-size:35px;color:#00e5ff;margin-bottom:15px}
-.hero p{max-width:650px;margin:auto;color:#d6e1ee}
-.btn{display:inline-block;margin-top:25px;padding:12px 27px;background:#00c9d8;color:#06121f;text-decoration:none;border-radius:7px;font-weight:bold}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080d18;color:#fff;line-height:1.7}
+header{background:#101a2b;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-size:20px;font-weight:bold;color:#e9bd62}
+nav a{color:white;text-decoration:none;margin:7px;font-size:14px}
+nav a:hover{color:#e9bd62}
+.hero{text-align:center;padding:85px 18px;background:linear-gradient(135deg,#102b50,#080d18)}
+.hero h1{font-size:34px;color:#f2c76b;margin-bottom:12px}
+.hero h2{font-size:22px;margin-bottom:15px}
+.hero p{max-width:650px;margin:auto;color:#d1d8e5}
+.btn{display:inline-block;background:#e9bd62;color:#101522;padding:12px 24px;border-radius:7px;text-decoration:none;font-weight:bold;margin:18px 6px}
 section{padding:65px 7%;text-align:center}
-h2{color:#00e5ff;font-size:28px;margin-bottom:25px}
-.about{max-width:750px;margin:auto;color:#d6e1ee}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.service{background:#12243a;padding:28px 18px;border-radius:12px;border:1px solid #203d59}
-.service h3{color:#00e5ff;margin-bottom:12px}
-.service p{color:#cbd5e1}
-.contact{background:#10243b}
-.contact p{margin:10px}
-footer{background:#030914;padding:22px;text-align:center;color:#aab7c8;font-size:14px}
+h2.title{font-size:28px;color:#f2c76b;margin-bottom:25px}
+.about{max-width:750px;margin:auto;color:#d5dbea}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#14233a;padding:25px 18px;border:1px solid #30435e;border-radius:12px}
+.card h3{color:#f2c76b;margin-bottom:12px}
+.card p{color:#d5dbea;font-size:14px}
+.contact{background:#101a2b}
+.contact p{margin:10px;color:#d5dbea}
+.social a{display:inline-block;color:#f2c76b;text-decoration:none;margin:10px}
+footer{padding:22px;text-align:center;background:#060a12;color:#aebbd0;font-size:13px}
+@media(max-width:600px){
+header{justify-content:center;text-align:center}
+nav{width:100%}
+nav a{display:inline-block;margin:5px}
+.hero h1{font-size:27px}
+}
 </style>
 </head>
 <body>
@@ -33,7 +44,7 @@ footer{background:#030914;padding:22px;text-align:center;color:#aab7c8;font-size
 <div class="logo">SHAHIN STUDIO</div>
 <nav>
 <a href="#home">হোম</a>
-<a href="#about">আমার সম্পর্কে</a>
+<a href="#about">পরিচিতি</a>
 <a href="#services">সার্ভিস</a>
 <a href="#contact">যোগাযোগ</a>
 </nav>
@@ -41,48 +52,57 @@ footer{background:#030914;padding:22px;text-align:center;color:#aab7c8;font-size
 
 <div class="hero" id="home">
 <h1>Shahin Digital & Creative Studio</h1>
-<p>আপনার ব্যবসাকে ডিজিটাল জগতে এগিয়ে নিতে আমরা আছি আপনার পাশে। সৃজনশীল ডিজাইন, ডিজিটাল মার্কেটিং ও ভিডিও এডিটিং সেবা।</p>
-<a class="btn" href="#services">আমাদের সার্ভিস দেখুন</a>
+<h2>আপনার ডিজিটাল সাফল্যের বিশ্বস্ত সহযোগী</h2>
+<p>গ্রাফিক ডিজাইন, ভিডিও এডিটিং এবং ডিজিটাল মার্কেটিংয়ের মাধ্যমে আপনার ব্যবসা ও ব্র্যান্ডকে এগিয়ে নিতে আমরা কাজ করি।</p>
+<a class="btn" href="#services">আমাদের সার্ভিস</a>
+<a class="btn" href="#contact">যোগাযোগ করুন</a>
 </div>
 
 <section id="about">
-<h2>আমার সম্পর্কে</h2>
+<h2 class="title">আমার পরিচিতি</h2>
 <div class="about">
-<p>আসসালামু আলাইকুম। আমি Aryan Ahmed Shahin। আমি একজন Freelancer ও Creative Content Creator। ডিজাইন, ডিজিটাল মার্কেটিং এবং ভিডিও এডিটিংয়ের মাধ্যমে ব্যক্তি ও ব্যবসা প্রতিষ্ঠানকে অনলাইনে পরিচিত করতে কাজ করি।</p>
+<h3 style="color:#e9bd62">Aryan Ahmed Shahin</h3>
+<p>আমি একজন Freelancer, Graphic Designer এবং Creative Content Creator। সৃজনশীল ডিজাইন, ভিডিও এডিটিং ও ডিজিটাল মার্কেটিংয়ের মাধ্যমে মানুষ ও ব্যবসা প্রতিষ্ঠানকে সহযোগিতা করাই আমার লক্ষ্য।</p>
 </div>
 </section>
 
 <section id="services">
-<h2>আমাদের সার্ভিসসমূহ</h2>
+<h2 class="title">আমাদের সার্ভিস</h2>
 <div class="services">
-
-<div class="service">
+<div class="card">
 <h3>🎨 Graphic Design</h3>
-<p>Logo Design, Banner, Poster, Business Card, Social Media Design ও Thumbnail তৈরি।</p>
+<p>Logo Design, Banner, Poster, Business Card, Social Media Design ও YouTube Thumbnail।</p>
 </div>
-
-<div class="service">
+<div class="card">
 <h3>📱 Digital Marketing</h3>
 <p>Facebook Page Management, Social Media Promotion ও Online Branding।</p>
 </div>
-
-<div class="service">
+<div class="card">
 <h3>🎬 Video Editing</h3>
 <p>YouTube Video, Reels, Shorts, Promotional Video ও Professional Editing।</p>
 </div>
-
+<div class="card">
+<h3>🌐 Creative Branding</h3>
+<p>ব্যবসার পরিচিতি, ব্র্যান্ড ডিজাইন এবং অনলাইন উপস্থিতি তৈরিতে সহযোগিতা।</p>
+</div>
 </div>
 </section>
 
 <section class="contact" id="contact">
-<h2>আমাদের সাথে যোগাযোগ করুন</h2>
-<p>আপনার প্রয়োজনীয় ডিজিটাল সার্ভিস পেতে এখনই যোগাযোগ করুন।</p>
-<a class="btn" href="https://www.facebook.com/" target="_blank">Facebook-এ যোগাযোগ</a>
+<h2 class="title">আমার সাথে যোগাযোগ করুন</h2>
+<p>আপনার প্রয়োজনীয় ডিজিটাল সার্ভিসের জন্য যোগাযোগ করুন।</p>
+<a class="btn" href="https://wa.me/8801XXXXXXXXX">WhatsApp করুন</a>
+<div class="social">
+<a href="https://facebook.com/">Facebook</a>
+<a href="https://youtube.com/">YouTube</a>
+<a href="https://instagram.com/">Instagram</a>
+<a href="https://tiktok.com/">TikTok</a>
+</div>
 </section>
 
 <footer>
 <p>© 2026 Shahin Digital & Creative Studio</p>
-<p>Designed with ❤️ by Aryan Ahmed Shahin</p>
+<p>Designed by Aryan Ahmed Shahin</p>
 </footer>
 
 </body>
